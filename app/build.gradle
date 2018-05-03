@@ -42,4 +42,6 @@ dependencies {
     // 对测试 Room 的支持
     //    testCompile "android.arch.persistence.room:testing:1.0.0-alpha5"
     compile 'org.greenrobot:greendao:3.2.2'
+
+    compile project(':arch-lib')
 }

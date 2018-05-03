@@ -27,3 +27,7 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+    archVersion='1.0.0-alpha9'
+}
