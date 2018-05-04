@@ -51,7 +51,6 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         switch (view.getId()) {
             case R.id.loginBtn:
                 mLoginViewModel.login("fusang", "abc123456");
-                mLoginViewModel.isLogin()
                 break;
 
         }
